@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo&display=swap");
+
 /* Reset */
 *,
 *::before,
@@ -12,6 +14,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  font-family: "Exo", sans-serif;
 }
 
 .container {
@@ -31,11 +34,13 @@ body {
   border-radius: 15px 15px 0 0;
   padding: 15px 50px;
   color: white;
+  width: 100%;
 }
 
 #inputBox {
   height: 75px;
-  width: 75px;
+  width: 150px;
+  color: white;
   background-color: gray;
   border: 1px solid white;
   border-radius: 5px;
@@ -43,6 +48,8 @@ body {
   font-size: 2rem;
   text-align: center;
   cursor: pointer;
+  font-size: 2rem;
+  font-weight: bolder;
 }
 
 #inputBox:focus {
@@ -61,4 +68,17 @@ body {
   background-color: white;
   padding: 15px 50px;
   border-radius: 5px;
+}
+
+.boxTitle {
+  margin-bottom: 15px;
+}
+
+#convertBtn {
+  font-family: inherit;
+  font-weight: bold;
+  width: 150px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
 }
